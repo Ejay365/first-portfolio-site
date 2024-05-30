@@ -1,0 +1,261 @@
+body{
+  height:100vh;
+width: auto;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  max-width: 1200px;
+margin: 0 auto;
+}
+/*logo name */
+.header-section h1{
+  color:orange;
+  font-family: Kite One;
+border-bottom: 3px solid;
+  padding: 20px;
+font-weight: 700;
+text-decoration: underline;
+
+}
+/*nav link Home about etc */
+.header-section nav ul li{
+text-align: center;
+display: inline-block;
+margin-left: 90px;
+width: 100px;
+padding-bottom: 10px;
+padding-top: 7px;
+position: sticky;
+font-family: Protest Riot;
+font-size: 20px;
+text-transform: uppercase;
+}
+.header-section nav ul li a{
+  color:black;
+  text-decoration: none;
+}
+
+/*nav link hovering */
+.header-section nav ul li:hover{
+  background-color:rgb(255, 255, 255);
+  border-radius: 7px;
+  text-decoration: underline solid black;
+}
+
+.header-section nav ul :hover{
+  color:rgb(240, 134, 12);
+  text-decoration: none;
+}
+
+.header-section nav {
+background-color: rgb(254, 180, 9);
+margin:0 auto;
+padding: 0.5em;
+align-items: center;
+box-sizing: border-box;
+box-shadow: 0 0.5em 0.5em -0.4em;
+}
+
+.header-section div{
+  text-align: left;
+
+  margin-top: 30px;
+  padding: 5px;
+  display: flexbox; 
+}
+.header-section div h2{
+  padding: 20px;
+margin:10px auto;
+font-family:Kite One;
+font-size: 40px;
+text-align: center;
+}
+/*paragraphs inside the header */
+.header-section div p{
+  text-align: left;
+  line-height: 2;
+  font-size: 16.5px;
+
+}
+
+
+/*Chatgpt help */
+.container {
+    display: flex;
+    align-items: flex-start; /* Align items at the start */
+    gap: 20px; /* Space between the image and text */
+    max-width: 1200px; /* Optional: limit the maximum width of the container */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.text-content {
+    flex: 1; /* Take up the remaining space */
+}
+
+.image-content {
+    flex-shrink: 0; /* Prevent the image from shrinking */
+}
+
+.image-content img {
+    width: 400px; /* Set a fixed width for the image */
+    height: auto; /* Maintain the aspect ratio */
+    transition: 2s;
+    border: 3px solid orange;
+         background-size: cover;
+     background-repeat: no-repeat;
+     box-shadow: 0 0.5em 2em -0.3em;
+     
+}
+.container .text-content p {
+  font-family: PT Sans Narrow ;
+  line-height: 2.3;
+}
+
+/* Image hovering */
+.image-content img:hover {
+     border: 3px solid red;
+     transform: scale(.5);
+}
+
+#button-container{
+  color:rgb(237, 106, 41);
+  align-items: right;
+  justify-content: right;
+  padding: 10px;
+  font-family: Kite One;
+
+}
+
+#button-container button a{
+  text-decoration: none;
+  color:black;
+}
+#button-container p{
+  font-size: 18px;
+}
+#button-container button{
+ border-radius: 5px;
+ background-color: rgb(223, 221, 219);
+ font-family: Days One;
+ padding: 10px;
+}
+
+#button-container button:hover{
+  background-color: orange;
+text-decoration: underline;
+border-radius: 0;
+cursor: pointer;
+}
+
+/*Form section */
+.form-section{
+  margin-left: 250px;
+  width: 550px;
+  height: auto;
+  padding: 30px;
+
+  box-sizing:border-box;
+}
+
+.form-section form {
+  width:500px;
+  height: auto;
+  padding: 25px;
+background:linear-gradient(rgb(232, 191, 152), rgb(234, 136, 9), rgb(207, 155, 12), rgb(241, 238, 235));
+box-sizing: border-box;
+box-shadow: 0 0 0.5em 0.2em;
+max-width: 1200px;
+margin-left:200px;
+}
+
+span{
+  text-decoration: underline  3px solid green;
+}
+
+
+.form-section label{
+  padding:5px;
+  margin:5px;
+  font-family: Kite One;
+}
+input[type="text"]{
+  color:black;
+  padding: 10px;
+  width:300px;
+  border:2px solid black;
+  margin:4px;
+  font-family: kite one;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+input[type="email"]{
+  color:black;
+  padding: 10px;
+  margin-left: 37px;
+  width: 300px;
+  border:2px solid black;
+  font-family: kite one;
+border-radius: 8px;
+ font-size: 15px;
+
+}
+.form-section div{
+  padding: 10px;
+  margin-right: 197px;
+}
+.form-section button{
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  width: 400px;
+  font-family: Days one;
+  font-size:19px;
+  background-color: orange;
+transition: transform 2s ease-in;
+transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.form-section button:hover{
+  background-color: darkorange;
+  color:rgb(255, 255, 255);
+  cursor:pointer; 
+  text-decoration: underline;
+  transform: translate(20px);
+  box-shadow: 0 0.5em 0.5em -0.4em;
+  border-bottom-color:#f61a1a;
+
+  
+}
+.form-section h1{
+  color:black;
+  text-align: center;
+  font-family: Days One;
+}
+
+/*Footer styling */
+
+#footer-Hrule{
+ border:1px solid black;
+}
+.footer-section{
+   background-color: rgb(227, 226, 226);
+   margin:0 auto;
+}
+.footer-section nav{
+  background-color: rgb(227, 226, 226);
+ padding: 20px;
+ margin-left: 200px;
+}
+.footer-section nav li{
+  display:inline-flex;
+  width: 300px;
+  padding: 5px;
+  margin:5px auto;
+}
+
+.footer-section  p{
+  font-family: kite one;
+  color:red;
+  font-size: 15px;
+}
